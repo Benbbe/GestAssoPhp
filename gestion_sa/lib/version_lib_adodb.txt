@@ -1,0 +1,69 @@
+http://adodb.sourceforge.net/   
+http://adodb.org/dokuwiki/doku.php
+https://github.com/ADOdb/ADOdb
+
+
+
+10/17/2018 - ADOdb  5.20.12 datée du 30/03/2018   https://github.com/ADOdb/ADOdb/releases/tag/v5.20.12
+
+05/11/2016 - ADOdb  5.20.7 datée du 20/09/2016  https://github.com/ADOdb/ADOdb/releases/tag/v5.20.7
+22/02/2016 - ADOdb  5.20.3 datée du 01/01/2016  https://github.com/ADOdb/ADOdb/releases/tag/v5.20.3
+03/12/2015 - 22/11/2015 ENCOURS version to 5.20dev VOIR changelog.md
+
+18/10/2012 -> V5.18 3 Sep 2012  adodb518a.tgz adodb-518-for-php5 2012-09-06 
+
+02/07/2012 -> adodb517.tgz du 2012-05-17 adodb-517-for-php5
+
+30/05/2010 -> adodb511.tgz du 2010-05-10 adodb-511-for-php5
+
+
+26/11/2009 ->adodb510 du 2009-11-10 	
+version 5.09a
+
+
+Fichier poutr GestAssophp
+-------
+
+	\lib\adodb (13+1)
+		adodb.inc.php 
+		adodb-csvlib.inc.php (if you use cached recordsets - CacheExecute(), etc)  Optional
+		adodb-datadict.inc.php 
+		adodb-error.inc.php
+		adodb-errorhandler.inc.php
+		adodb-exceptions.inc.php  [adodb-errorhandler.inc.php (if you use adodb error handler or php5 exceptions). Optional]
+		adodb-iterator.inc.php (php5 functionality) 
+		adodb-lib.inc.php 
+		adodb-time.inc.php 
+		changelog.md (vient de /docs)  change.log.txt supprimé
+		LICENSE.md (for legal reasons)  remplace license.txt supprimé  
+		README.md remplace readme.txt supprimé
+		toexport.inc.php (Voir si besoin)
+		+index.html
+
+
+	\lib\adodb\datadict (2+1)
+		\datadict\datadict-mysql.inc.php
+		\datadict\datadict-postgres.inc.php
+		+index.html
+
+	\lib\adodb\drivers (7+1) -> pour mysql + postgres
+		\drivers\adodb-mysql.inc.php
+		\drivers\adodb-mysqli.inc.php
+		\drivers\adodb-postgres.inc.php (vide)
+		\drivers\adodb-postgres7.inc.php 
+		\drivers\adodb-postgres8.inc.php 
+		\drivers\adodb-postgres9.inc.php
+		\drivers\adodb-postgres64.inc.php 
+		+index.html
+	\lib\lang
+		lang\adodb-en.inc.php
+		\lang\adodb-fr.inc.php
+	+index.html
+
+----
+Voir si besoin
++ toexport.inc.php VOIR ( Code to export recordsets in several formats)
+
+
+
+
